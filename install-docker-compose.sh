@@ -32,4 +32,4 @@ newgrp docker &&
 sudo systemctl enable docker.service &&
 sudo systemctl enable containerd.service &&
 
-docker run hello-world &&
+docker run hello-world
